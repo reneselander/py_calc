@@ -41,7 +41,7 @@ def equalpress():
 
     except:
 
-        equation.set('error')
+        equation.set('*lol* dividing by zero :)')
 
         expression = ''
 
@@ -55,7 +55,7 @@ def clear():
     equation.set('0')
 
 #create a frame inside the window
-button_frame = Frame(window, bg = 'white')
+button_frame = Frame(window, bg = '#ffffff')
 button_frame.pack()
 
 #add entry box into the button frame, get text from user into textvariable
@@ -71,39 +71,39 @@ expression_field = Entry(button_frame, textvariable = equation, justify = 'right
 #expression_field.pack()
 
 #create buttons, locate them in the button frame
-button1 = Button(button_frame, text = '1', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#fff7e6', width = 8, height = 3, command = lambda:press(1))
+button1 = Button(button_frame, text = '1', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#ffffff', width = 8, height = 3, command = lambda:press(1))
 
-button2 = Button(button_frame, text = '2', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#fff7e6', width = 8, height = 3, command = lambda:press(2))
+button2 = Button(button_frame, text = '2', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#ffffff', width = 8, height = 3, command = lambda:press(2))
 
-button3 = Button(button_frame, text = '3', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#fff7e6', width = 8, height = 3, command = lambda:press(3))
+button3 = Button(button_frame, text = '3', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#ffffff', width = 8, height = 3, command = lambda:press(3))
 
-addition = Button(button_frame, text = '+', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#fff7e6', width = 8, height = 3, command = lambda:press('+'))
+addition = Button(button_frame, text = '+', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#ffffff', width = 8, height = 3, command = lambda:press('+'))
 
-button4 = Button(button_frame, text = '4', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#fff7e6', width = 8, height = 3, command = lambda:press(4))
+button4 = Button(button_frame, text = '4', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#ffffff', width = 8, height = 3, command = lambda:press(4))
 
-button5 = Button(button_frame, text = '5', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#fff7e6', width = 8, height = 3, command = lambda:press(5))
+button5 = Button(button_frame, text = '5', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#ffffff', width = 8, height = 3, command = lambda:press(5))
 
-button6 = Button(button_frame, text = '6', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#fff7e6', width = 8, height = 3, command = lambda:press(6))
+button6 = Button(button_frame, text = '6', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#ffffff', width = 8, height = 3, command = lambda:press(6))
 
-subtract = Button(button_frame, text = '-', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#fff7e6', width = 8, height = 3, command = lambda:press('-'))
+subtract = Button(button_frame, text = '-', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#ffffff', width = 8, height = 3, command = lambda:press('-'))
 
-button7 = Button(button_frame, text = '7', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#fff7e6', width = 8, height = 3, command = lambda:press(7))
+button7 = Button(button_frame, text = '7', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#ffffff', width = 8, height = 3, command = lambda:press(7))
 
-button8 = Button(button_frame, text = '8', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#fff7e6', width = 8, height = 3, command = lambda:press(8))
+button8 = Button(button_frame, text = '8', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#ffffff', width = 8, height = 3, command = lambda:press(8))
 
-button9 = Button(button_frame, text = '9', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#fff7e6', width = 8, height = 3, command = lambda:press(9))
+button9 = Button(button_frame, text = '9', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#ffffff', width = 8, height = 3, command = lambda:press(9))
 
-multiplication = Button(button_frame, text = '*', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#fff7e6', width = 8, height = 3, command = lambda:press('*'))
+multiplication = Button(button_frame, text = '*', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#ffffff', width = 8, height = 3, command = lambda:press('*'))
 
-button0 = Button(button_frame, text = '0', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#fff7e6', width = 8, height = 3, command = lambda:press(0))
+button0 = Button(button_frame, text = '0', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#ffffff', width = 8, height = 3, command = lambda:press(0))
 
-decimal = Button(button_frame, text = '.', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#fff7e6', width = 8, height = 3, command = lambda:press('.'))
+decimal = Button(button_frame, text = '.', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#ffffff', width = 8, height = 3, command = lambda:press('.'))
 
-clear = Button(button_frame, text = 'C', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#fff7e6', width = 8, height = 3, command = clear)
+clear = Button(button_frame, text = 'C', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#ffffff', width = 8, height = 3, command = clear)
 
-division = Button(button_frame, text = '/', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#fff7e6', width = 8, height = 3, command = lambda:press('/'))
+division = Button(button_frame, text = '/', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#ffffff', width = 8, height = 3, command = lambda:press('/'))
 
-equal = Button(button_frame, text = '=', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#ffffff', width = 17, height = 3, command = equalpress)
+equal = Button(button_frame, text = '=', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#ffffff', width = 34, height = 3, command = equalpress)
 
 #place the grid - cordinates 0 and 0 is top left, create separations (paddings) between text field and buttons)
 expression_field.grid(row = 0, column = 0, columnspan = 4, ipadx = 8, ipady = 25, pady = 15)

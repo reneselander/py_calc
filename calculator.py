@@ -6,7 +6,7 @@ window.title('Python Calculator')
 
 window.geometry('355x475')
 
-window.configure(bg = '#D2B48C')
+window.configure(bg = 'black')
 
 window.iconbitmap('icon.ico')
 
@@ -55,7 +55,7 @@ def clear():
     equation.set('0')
 
 #create a frame inside the window
-button_frame = Frame(window, bg = '#f0f0f0')
+button_frame = Frame(window, bg = 'white')
 button_frame.pack()
 
 #add entry box into the button frame, get text from user into textvariable
@@ -103,7 +103,7 @@ clear = Button(button_frame, text = 'C', font = ('times new roman', 12), relief 
 
 division = Button(button_frame, text = '/', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#fff7e6', width = 8, height = 3, command = lambda:press('/'))
 
-equal = Button(button_frame, text = '=', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#fff7e6', width = 8, height = 3, command = equalpress)
+equal = Button(button_frame, text = '=', font = ('times new roman', 12), relief = 'ridge', borderwidth = 1, bg = '#ffffff', width = 17, height = 3, command = equalpress)
 
 #place the grid - cordinates 0 and 0 is top left, create separations (paddings) between text field and buttons)
 expression_field.grid(row = 0, column = 0, columnspan = 4, ipadx = 8, ipady = 25, pady = 15)

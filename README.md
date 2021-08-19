@@ -1,2 +1,3 @@
+![screenshot](https://user-images.githubusercontent.com/50113423/130095014-a9e8a96f-56f6-4257-8d1c-8823c8687466.png)
 # py_calc
 Simple calculator made in Python and TKinter. Work in progress...
